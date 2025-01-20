@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: "Poppins", sans-serif;
+  --color-light-bg: rgba(255, 255, 255, 1);
+  --color-dark-text: #333;
+
+  font-family: var(--font-primary);
+  color-scheme: light;
+}
+
+/* Example of global styles you can add */
+body {
+  background-color: var(--color-light-bg);
+  color: var(--color-dark-text);
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+}
+
+/* Custom layout class */
+.custom-layout {
+  width: 1440px;
+  height: 5668px;
+  position: relative;
+  top: 286px;
+  left: 169px;
+}
